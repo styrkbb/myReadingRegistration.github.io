@@ -74,4 +74,5 @@ li a:hover:not(.Aktiv) {
     .TittelWrite2{width: 100%;float: left;padding-bottom: 5px;}
     .TittelWrite3 {width: 100%;float: left;padding-bottom: 5px;}
     body {margin-top: 0;}
+    button {width:100%;}
 }
