@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style-tysk.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <li><a href="https://myreadingregistration.github.io/">Heim</a></li>
+            <li><a href="index-tysk">die Website</a></li>
+            <li><a href="https://myreadingregistration.github.io/Download.html">Herunterladen</a></li>
+            <li><a href="https://myreadingregistration.github.io/about.html">About</a></li>
+        </nav>
+        <div style="padding: 20px;padding-left: 10px;margin-top: 30px; height: 1500px;">
+            <div class="LeggInnBok">
+                <form id="bokRegistrering">
+                    <label>
+                        Titel:
+                        <input type="text" id="tittel" required>
+                    </label>
+                    <label>
+                        Autor:
+                        <input type="text" id="forfatter" required>
+                    </label>
+                    <label>
+                        Seite:
+                        <input type="number" id="sidetall" required>
+                    </label>
+                    <br><br>
+                    <button type="submit">Hinzufügen eine Buch</button>
+                </form>
+            </div>
+            <div class="Tabell">
+                <table style="margin-top: 20px;border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>Titel</th>
+                            <th>Autor</th>
+                            <th>Seite</th>
+                            <th>Ändern</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bokTabell" class="tabell"></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="script-tysk.js"></script>
+</html>
