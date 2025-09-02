@@ -28,3 +28,21 @@ button {
 body  {
     background-color: beige;
 }
+.TittelWrite {
+    float: none;
+    width: auto;
+}
+.TittelWrite2 {
+    float: none;
+    width: auto;
+}
+.TittelWrite3 {
+    float: none;
+    width: auto;
+}
+@media screen and (max-width:730px) {
+    .TittelWrite {float: left;width: 100%; padding-bottom: 5px;}
+    .TittelWrite2 {float: left;width: 100%; padding-bottom: 5px;}
+    .TittelWrite3 {float: left;width: 100%; padding-bottom: 5px;}
+    button {width: 100%;};
+}
