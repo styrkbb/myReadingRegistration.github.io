@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="LeggInnBok">
+            <form id="bokRegistrering">
+                <label>
+                    Tittel:
+                    <input type="text" id="tittel" required>
+                </label>
+                <label>
+                    Forfatter:
+                    <input type="text" id="forfatter" required>
+                </label>
+                <label>
+                    Sidetall:
+                    <input type="number" id="sidetall" required>
+                </label>
+                <br><br>
+                <button type="submit">Legg Til Bok</button>
+            </form>
+        </div>
+        <div class="Tabell">
+            <table style="margin-top: 20px;border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Tittel</th>
+                        <th>Forfatter</th>
+                        <th>Sidetall</th>
+                        <th>Endring</th>
+                    </tr>
+                </thead>
+                <tbody id="bokTabell" class="tabell"></tbody>
+            </table>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
