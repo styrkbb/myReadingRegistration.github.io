@@ -27,6 +27,7 @@ button {
 }
 body  {
     background-color: beige;
+    margin-top: 30px;
 }
 nav {
     list-style-type: none;
@@ -53,4 +54,24 @@ li a:hover:not(.Aktiv) {
 .Aktiv {
     background-color: beige;
     color: #333;
+}
+.TittelWrite {
+    width:auto;
+    float: none;
+}
+.TittelWrite2 {
+    width:auto;
+    float: none;
+}
+.TittelWrite3 {
+    width:auto;
+    float: none;
+}
+@media screen and (max-width: 700px) {
+    li a {float:none;}
+    nav {position: static;}
+    .TittelWrite {width: 100%;float: left;padding-bottom:5px;}
+    .TittelWrite2{width: 100%;float: left;padding-bottom: 5px;}
+    .TittelWrite3 {width: 100%;float: left;padding-bottom: 5px;}
+    body {margin-top: 0;}
 }
