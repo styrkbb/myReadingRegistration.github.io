@@ -44,5 +44,5 @@ body  {
     .TittelWrite {float: left;width: 100%; padding-bottom: 5px;}
     .TittelWrite2 {float: left;width: 100%; padding-bottom: 5px;}
     .TittelWrite3 {float: left;width: 100%; padding-bottom: 5px;}
-    button {width: 100%;};
+    button {width: 100%;margin-bottom:3px;};
 }
